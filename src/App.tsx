@@ -1,16 +1,16 @@
+import { Link } from 'react-router-dom';
 import * as React from 'react';
 import './App.css';
-import {
-  BrowserRouter as Router,  
-  Link
-} from 'react-router-dom'
+import { BrowserRouter as Router} from 'react-router-dom';
 
-import logo from './logo.svg';
+import Logo from './logo.svg';
 
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
+
+    
 
       <Router>
       <div>
@@ -19,14 +19,14 @@ class App extends React.Component {
           <li><Link to="/about">About</Link></li>
           <li><Link to="/topics">Topics</Link></li>
         </ul>
+  
+        <hr/>
+  
       </div>
-      </Router>
-
-    
-      
+    </Router>
 
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
+          <img src={Logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to React</h1>
         </header>
         <p className="App-intro">
