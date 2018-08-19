@@ -9,8 +9,7 @@ class App extends React.Component {
   public render() {
     return (
       <div className="App">
-
-    
+   
 
       <Router>
       <div>
@@ -18,11 +17,12 @@ class App extends React.Component {
           <li><Link to="/">Home</Link></li>
           <li><Link to="/about">About</Link></li>
           <li><Link to="/topics">Topics</Link></li>
-        </ul>
-  
-        <hr/>
-  
+        </ul>  
+        <hr/>      
+
       </div>
+
+
     </Router>
 
         <header className="App-header">
